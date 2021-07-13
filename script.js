@@ -129,7 +129,7 @@ t1.from(".ringOne", 4, {
             ease: Expo.easeInOut
       }, "-=5").to(".logo-hero", 3, {
             delay: 1.1,
-            x: 230,
+            x: 285,
             opacity: 1,
             ease: Expo.easeInOut
       }, "-=5").to(".hi-content", 1, {
