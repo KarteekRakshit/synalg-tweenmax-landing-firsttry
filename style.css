@@ -69,7 +69,7 @@ img {
       /* font-family: 'Nunito Sans'; */
       right: 0;
       line-height: 60px;
-      z-index: 1;
+      z-index: 50;
       font-weight: bolder;
       color: #f9c784;
       border: .3pt solid #f9c784a3;
@@ -77,6 +77,12 @@ img {
       margin: 20px 20px 0px 0px;
       /* padding: 0 40px 0 20px; */
       text-decoration: none;
+}
+
+.contact:hover {
+      background: #f9c784;
+      /* border: .3pt solid #aaaaa9a3; */
+      color: white;
 }
 
 .menu {
@@ -183,6 +189,12 @@ button {
       border: .3pt solid #f9c784a3;
 }
 
+#one:hover {
+      background: #f9c784;
+      /* border: .3pt solid #aaaaa9a3; */
+      color: white;
+}
+
 #two {
       background: linear-gradient(135deg, rgb(106, 219, 157) 0%, rgb(23, 167, 88) 100%);
       ;
@@ -259,6 +271,7 @@ button {
       background: #0a0a0a;
       z-index: 2;
 }
+
 /* 
 .ring {
       margin: 0%;
@@ -271,6 +284,7 @@ button {
       width: 40%;
       opacity: 0.7;
 } */
+
 .ring {
       margin: 0%;
       padding: 0%;
